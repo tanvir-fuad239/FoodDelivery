@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+ 
+
+.FoodRestro-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.nav-menu-font{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.2rem;
+}
+
+.instragram-color{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.facebook-color{
+    color: #4267B2;
+}
+
+.google-plus-color{
+    color:  #db4a39;
+}
+
+.twitter-color{
+    color: #00acee ;
+}
+
+.active{
+    background-color: #18b36a;
+    color: white !important;
+    border-radius: 1pc;
+    font-weight: bolder;
+}
+
+.link-hover:hover{
+    font-weight: bold;
+}
+
+.icon-hover:hover{
+    box-shadow: 0.7px 0.7px 5px 0px rgb(5, 5, 5);
+}
+
+.icon-height{
+    height: 40px;
+}
+.menu-width{
+    width: 70px;
+    text-align: center;
+}
+
+.review-width{
+    width: 75px;
+    text-align: center;
+}
+
+.dimensions {
+    height: 360px !important;
+    width: 800px !important;
+}
+
+.caraousel-bg{
+    background-color: whitesmoke;
+}
+
+.carousel-button{
+    height: 30px;
+    width: 100px;
+    color: #18b36a;
+    text-align: center;
+    border: 1px solid #18b36a;
+    border-radius: 12px;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.carousel-button:hover{
+    background-color: #18b36a;
+    color: white;
+}
+
+.top-dishes-color{
+    color: #18b36a;
+    text-decoration: underline;
+}
+
+.home-page-card:hover:hover{
+    box-shadow: 0px 0px 5px 1px rgb(5, 5, 5);
+}
+
+.card-button{
+    height: 30px;
+    width: 100px;
+    background-color: #18b36a;
+    color: white;
+    text-align: center;
+    border: 1px solid #18b36a;
+    border-radius: 12px;
+}
+
+.card-button-hover:hover{
+    background-color: #11d87b;
+}
+
+.card-title-font{
+    font-family: 'Baloo 2', cursive;
+    text-transform: capitalize;
+}
+.price-text-color{
+    color: #18b36a;
+}
+
+
+.btn-close:focus{
+    border: none !important;
+    color: #18b36a !important;
+}
+
+.card-image-dimensions{
+    height: 360px !important;
+    width: 800px !important;
+}
+
+
+.footer-link-hover:hover{
+    text-decoration: underline !important;
+    color: rgb(226, 202, 202) !important;
+}
+
+.footer-font{
+    font-family: 'Baloo 2', cursive;
+    font-style: oblique;
+}
+
+.star-text-color{
+    color: #11d87b !important;
+}
+
+.form-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-font{
+    font-family: 'Baloo 2', cursive;
+    font-style: oblique;
+    
+}
+
+.order-head-text-color{
+    color: #18b36a;
+}
+
+.about-head-text-color{
+    color: #18b36a;
+}
+.input{
+    height: 30px;
+    width: 230px;
+    padding-left: 7px;
+    border: 0.4px solid black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.input-textarea{
+    height: 150px;
+    width: 230px;
+    padding-left: 7px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.input:focus,.input-textarea:focus{ 
+    outline: none !important;
+    border-color: #0ece74;
+    box-shadow: 0.3px 0.3px 4px #16cc77;
+ }
+ 
+.about-para-text{
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.view-more{
+    height: 30px;
+    width: 100px;
+    color: #18b36a;
+    text-align: center;
+    border: 1px solid #18b36a;
+    border-radius: 12px;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+.view-more:hover{
+    cursor: pointer;
+    background-color: #18b36a;
+    color: white;
+}
+
+.menu-head{
+    background-color: #18b36a!important;
+    color: white !important;
+}
+
+.about-image-dimensions{
+    height: 360px !important;
+    width: 800px !important;
+}
