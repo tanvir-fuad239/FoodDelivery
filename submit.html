@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Tamma+2&family=Dancing+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Tamma+2&family=Dancing+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>FoodRestro-from submitted</title>
+</head>
+
+<body>
+
+    <!-- navbar starts here -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container-fluid nav-height">
+                <a class="navbar-brand ms-3 text-dark FoodRestro-font" href="index.html">FoodRestro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-3  mb-lg-0 pt-1 mt-1 nav-menu-font">
+                        <li class="nav-item ms-2 menu-width">
+                            <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item ms-2 menu-width">
+                            <a class="nav-link text-dark link-hover" aria-current="page" href="dishes.html">Dishes</a>
+                        </li>
+                        <li class="nav-item ms-2 menu-width">
+                            <a class="nav-link text-dark link-hover" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item  ms-2 menu-width">
+                            <a class="nav-link text-dark link-hover" aria-current="page" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item  ms-2 menu-width">
+                            <a class="nav-link text-dark link-hover" aria-current="page"
+                                href="order.html">Order</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav ms-4 mb-lg-0 pt-1 nav-menu-font d-flex flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icon-sppace icon-hover icon-height" aria-current="page"
+                                href="#"><i class="fab fa-facebook facebook-color"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icon-space   icon-hover icon-height" aria-current="page"
+                                href="#"><i class="fab fa-google-plus-g google-plus-color"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icon-space  icon-hover icon-height" aria-current="page"
+                                href="#"><i class="fab fa-instagram instragram-color"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icon-space  icon-hover icon-height" aria-current="page"
+                                href="#"><i class="fab fa-twitter twitter-color "></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- navbar ends here -->
+
+    <!-- submit alert -->
+
+    <div class="alert alert-success alert-dismissible mt-2" role="alert">
+        <strong>Congratulations! You have successfully submit the order.</strong><i>You will get your food within 30 minutes.</i>
+        <button type="button"data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+
+    <!-- form starts here -->
+
+    <h3 class="text-center my-3 order-head-text-color fst-italic">Order Now</h3>
+    <div class="container d-flex justify-content-center">
+         <form class="d-flex flex-column bg-white p-4 mb-5 shadow rounded">
+            <div class="d-flex flex-row visible-form">
+             <div class="mx-3">
+                 <label for="name">Your name</label>
+                 <br>
+                 <input type="text" name="name" id="name" placeholder="Your name" class="input bg-light">
+                 <br>
+                 <label for="order" placeholder="Order name">Order name</label>
+                 <br>
+                 <input type="text" name="order" id="order" placeholder="Order name" class="input bg-light">
+                 <br>
+                 <label for="quantity">Number of boxes</label>
+                 <br>
+                 <input type="number" name="number" id="number" max="10" min="1" placeholder="how many?" class="input bg-light">
+                 <br>
+                 <label for="address">Address</label>
+                 <br>
+                 <textarea name="" id="" cols="30" rows="10" placeholder="your address" class="input-textarea bg-light"></textarea>
+             </div>
+             <div class="mx-3">
+                 <label for="phone">Contact no.</label>
+                 <br>
+                 <input type="text" name="phone" id="phone" placeholder="Your contact" class="input bg-light">
+                 <br>
+                 <label for="date">Date</label>
+                 <br>
+                 <input type="date" name="date" id="date" class="input bg-light">
+                 <br>
+                 <label for="additional food">Additional food</label>
+                 <br>
+                 <input type="text" name="add" id="add" placeholder="want additional food?" class="input bg-light">
+                 <br>
+                 <label for="massage">Your massage</label>
+                 <br>
+                 <textarea name="" id="" cols="30" rows="10" placeholder="leave your massage" class="input-textarea bg-light"></textarea>
+                </div>
+            </div>
+            <div class="d-flex flex-row d-none hidden-form">
+                <div class="mx-3">
+                    <label for="name">Your name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Your name" class="input bg-light">
+                    <br>
+                    <label for="order" placeholder="Order name">Order name</label>
+                    <br>
+                    <select name="order" id="order" class="input bg-light">
+                        <option value="order name">Order name</option>
+                        <option value="">1.Crazy juicy cheese burger</option>
+                        <option value="">2.Bbq chicken pizza</option>
+                        <option value="">3.Chicken broccoli alfredo
+                            pasta</option>
+                        <option value="">4.Beef stir fry noodles</option>
+                        <option value="">5.Chainese chicken fried rice</option>
+                        <option value="">6.Red velvate cake</option>
+                        <option value="">7.Shahi Beef Tehari</option>
+                        <option value="">8.Mutton Kacchi Biriyan</option>
+                        <option value="">9.Chicken Dum Biriyani</option>
+                        <option value="">10.Seekh Kabab</option>
+                        <option value="">11.Shami Kabab</option>
+                        <option value="">12.Bbq Kabab</option>
+                        <option value="">13.Italian Cuisine</option>
+                        <option value="">14.Italian Cheese pizza</option>
+                        <option value="">15.Chicken Chow Mei</option>
+
+
+                    </select>
+                    <br>
+                    <label for="quantity">Number of boxes</label>
+                    <br>
+                    <input type="number" name="number" id="number" max="10" min="1" placeholder="how many?"
+                        class="input bg-light">
+                    <br>
+                    <label for="address">Address</label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="your address"
+                        class="input-textarea bg-light"></textarea>
+                </div>
+                <div class="mx-3">
+                    <label for="phone">Contact no.</label>
+                    <br>
+                    <input type="text" name="phone" id="phone" placeholder="Your contact" class="input bg-light">
+                    <br>
+                    <label for="date">Date</label>
+                    <br>
+                    <input type="date" name="date" id="date" class="input bg-light">
+                    <br>
+                    <label for="additional food">Additional food</label>
+                    <br>
+                    <input type="text" name="add" id="add" placeholder="want additional food?" class="input bg-light">
+                    <br>
+                    <label for="massage">Your massage</label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="leave your massage"
+                        class="input-textarea bg-light"></textarea>
+                </div>
+            </div>
+                 <div class="m-auto">
+                    <a href="submit.html"><button class=" mt-1 card-button card-button-hover">Submit</button></a>
+                 </div>
+         </form>
+    </div>
+
+
+
+    <!-- form ends here -->
+
+     <!-- footer starts here -->
+    <footer class="bg-dark">
+        <div class="container-fluid bg-dark text-white d-flex flex-row justify-content-center align-items-center flex-wrap fw-bold footer">
+                <div class="mx-4 my-3 fst-italic">
+                    <p>Franchise</p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Bangladesh</a>
+                    </p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">India</a></p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Thailand</a></p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Australia</a></p>
+                </div>
+                <div class="mx-4 my-3 fst-italic">
+                    <p>Quick links</p>
+                    <p><a href="index.html"
+                            class="text-decoration-none text-white fw-normal footer-link-hover">Home</a>
+                    </p>
+                    <p><a href="dishes.html"
+                        class="text-decoration-none text-white fw-normal footer-link-hover">Dishes</a>
+                </p>
+                    <p><a href="about.html" class="text-decoration-none text-white fw-normal footer-link-hover">About
+                            us</a></p>
+                    <p><a href="menu.html" class="text-decoration-none text-white fw-normal footer-link-hover">Menu</a>
+                    </p>
+                </div>
+                <div class="mx-4 my-3 fst-italic">
+                    <p>Contact info.</p>
+                    <p class="fw-normal">Phone: <a class="text-white fw-normal"> +8801409206701</a></p>
+                    <p class="fw-normal">Fax no: <a class="text-white fw-normal"> 7702173</a></p>
+                    <p class="fw-normal">Hotline: <a class="text-white fw-normal"> 01739203721</a></p>
+                    <p class="fw-normal">Gmail: <a class="text-white fw-normal"> foodresto@gmail.com</a></p>
+                </div>
+                <div class="mx-4 my-3 fst-italic">
+                    <p>Follow us</p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Facebook</a></p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Google+</a></p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Instragram</a>
+                    </p>
+                    <p><a href="#" class="text-decoration-none text-white fw-normal footer-link-hover">Twitter</a></p>
+                </div>
+        </div>
+        <hr class="bg-white">
+        <p class="text-center text-white footer-font">Copyright&copy; FoodRestro.com 2020-2023</p>
+    </footer>
+
+    <!-- footer ends here -->
+     
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
